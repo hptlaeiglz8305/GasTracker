@@ -1,3 +1,0 @@
-/Users/yankun/stm32/code/GasTracker/cmake-build-debug/CMakeFiles/1.elf.dir
-/Users/yankun/stm32/code/GasTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/yankun/stm32/code/GasTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir

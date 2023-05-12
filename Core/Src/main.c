@@ -111,15 +111,15 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 //	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
-	HAL_Delay(1000);
-//	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
-	HAL_Delay(1000);
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+//	HAL_Delay(1000);
+////	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+//	HAL_Delay(1000);
 
 
 	__HAL_TIM_SetCompare(&htim3,TIM_CHANNEL_1,speed);
-	  speed+=3;
+	  speed+=30;
 	  HAL_Delay(100);
 
   }

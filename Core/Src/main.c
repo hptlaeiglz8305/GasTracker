@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "test.h"
 
 
 /* USER CODE END Includes */
@@ -118,9 +119,11 @@ int main(void)
 //	HAL_Delay(1000);
 
 
-	__HAL_TIM_SetCompare(&htim3,TIM_CHANNEL_1,speed);
-	  speed+=30;
-	  HAL_Delay(100);
+//	__HAL_TIM_SetCompare(&htim3,TIM_CHANNEL_1,speed);
+//	  speed+=30;
+//	  HAL_Delay(100);
+	  test_printf();
+	  HAL_Delay(1000);
 
   }
   /* USER CODE END 3 */
